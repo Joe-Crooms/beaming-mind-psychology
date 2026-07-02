@@ -202,27 +202,24 @@ a { color: var(--green-dark); }
 }
 
 /* About */
-.about-grid {
-  display: grid;
-  grid-template-columns: 1.3fr 1fr;
-  gap: 48px;
-  align-items: start;
+.about-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 8px;
 }
 
-.about-card {
-  background: #fff;
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 28px;
+.about-header h2 {
+  margin: 0;
 }
 
 .headshot {
   display: block;
-  width: 93px;
-  height: 93px;
+  width: 72px;
+  height: 72px;
   object-fit: cover;
   border-radius: 50%;
-  margin: 0 auto;
+  flex-shrink: 0;
   padding: 4px;
   background: linear-gradient(135deg, var(--plum), var(--green));
 }
@@ -369,7 +366,7 @@ details p {
 
 /* Responsive */
 @media (max-width: 860px) {
-  .about-grid, .therapy-grid, .contact-grid {
+  .therapy-grid, .contact-grid {
     grid-template-columns: 1fr;
   }
 }
