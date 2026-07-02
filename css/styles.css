@@ -356,9 +356,9 @@ details p {
 
 .office-photo {
   display: block;
-  width: 100%;
-  height: 110px;
-  object-fit: cover;
+  width: 66%;
+  height: auto;
+  margin: 0 auto;
   border-radius: var(--radius);
   border: 1px solid var(--border);
 }
