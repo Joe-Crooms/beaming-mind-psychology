@@ -215,8 +215,8 @@ a { color: var(--green-dark); }
 
 .headshot {
   display: block;
-  width: 92px;
-  height: 92px;
+  width: 112px;
+  height: 112px;
   object-fit: cover;
   border-radius: 50%;
   flex-shrink: 0;
