@@ -136,7 +136,7 @@ a { color: var(--green-dark); }
 }
 
 .hero-logo {
-  width: 130px;
+  width: 220px;
   height: auto;
   margin-bottom: 12px;
 }
@@ -214,6 +214,17 @@ a { color: var(--green-dark); }
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 28px;
+}
+
+.headshot {
+  display: block;
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto 24px;
+  padding: 4px;
+  background: linear-gradient(135deg, var(--plum), var(--green));
 }
 
 .credential-list {
@@ -336,8 +347,25 @@ details p {
   color: var(--plum-dark);
 }
 
+.contact-visual {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100%;
+}
+
+.office-photo {
+  display: block;
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+}
+
 .map-frame {
-  min-height: 300px;
+  flex: 1;
+  min-height: 260px;
   border-radius: var(--radius);
   overflow: hidden;
   border: 1px solid var(--border);
